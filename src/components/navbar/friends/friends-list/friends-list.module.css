@@ -1,0 +1,14 @@
+.friendsList {
+    margin: 150px 0px 0px 0px;
+}
+
+.friendsList h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+.currentFriends {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -5px;
+}

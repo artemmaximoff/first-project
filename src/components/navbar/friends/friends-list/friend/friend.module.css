@@ -1,0 +1,12 @@
+.friend {
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.friend img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid rgb(238, 115, 0);
+}

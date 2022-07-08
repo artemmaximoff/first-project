@@ -1,0 +1,18 @@
+.paginator {
+    display: flex;
+    align-items: center;
+}
+.paginatorBtn {
+    margin: 0px 5px;
+}
+.selectedPage {
+    font-weight: bold;
+    border: 1px solid gray;
+    padding: 0 3px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.pageNumber {
+    border: 1px solid gray;
+    padding: 0 3px;
+}

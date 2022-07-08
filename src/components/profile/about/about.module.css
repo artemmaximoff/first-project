@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 10px;
+}
+.about img {
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    margin: 0px 0px 0px 10px;
+}
+
+.info span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.info div span {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.job {
+    display: flex;
+    align-items: center;
+    
+}
+
+.job img {
+    width: 20px;
+    height: 20px;
+    padding: 0px 0px 0px 5px;    
+}
+.contact{
+    padding: 5px 0px 0px 10px;
+    display:block
+}
+
+.error {
+    font-size: 15px;
+    color: red;
+}

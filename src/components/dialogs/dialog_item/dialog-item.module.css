@@ -1,0 +1,18 @@
+.dialogItem {
+    display: flex;
+}
+.dialogItem img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.active {
+    color: rgb(238, 115, 0);
+    line-height: 40px;
+}
