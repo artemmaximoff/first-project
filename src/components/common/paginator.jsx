@@ -25,11 +25,11 @@ let Paginator = ({ totalItemsCount, currentPage, pageSize, onPageChanged, portio
             .filter(p => p >= leftPortionNumber && p <= rightPortionNumber)
             .map(p => {
                 return <span className={currentPage === p ? s.selectedPage : s.pageNumber}
-                    onClick={(e) => { onPageChanged(p) }}>{p}</span>
+                    onClick={() => { onPageChanged(p) }}>{p}</span>
             })}
         </span>
         {portionCount > portionNumber &&
-            <button className={s.paginatorBtn} onClick={() => { setPortionNumber(portionNumber + 1) }}> ></button>
+            <button className={s.paginatorBtn} onClick={() => { setPortionNumber(portionNumber + 1) }}>{`>`}</button>
         }
     </div>
 

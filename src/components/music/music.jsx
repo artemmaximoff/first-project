@@ -1,7 +1,10 @@
 
 import s from './music.module.css';
 
-const Music = (props) => {
+const Music = () => {
+
+
+
     return (
         <div>Music</div>
     )
